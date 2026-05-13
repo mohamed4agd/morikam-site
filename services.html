@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services – Morikam</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      background: #1a3a5c;
+      padding: 16px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      text-decoration: none;
+    }
+    nav .logo span { color: #f0a500; }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+    }
+    nav ul a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    nav ul a:hover { color: #fff; }
+    nav ul a.active { color: #f0a500; }
+
+    /* PAGE HEADER */
+    .page-header {
+      background: #1a3a5c;
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .page-header h1 { font-size: 36px; }
+    .page-header h1 span { color: #f0a500; }
+    .page-header p { color: #b0c4d8; margin-top: 12px; font-size: 17px; }
+
+    /* SECTION TITLE */
+    .section-title {
+      text-align: center;
+      padding: 56px 20px 10px;
+    }
+    .section-title h2 { font-size: 26px; color: #1a3a5c; }
+    .section-title p { color: #666; margin-top: 8px; }
+    .divider {
+      width: 50px;
+      height: 3px;
+      background: #f0a500;
+      margin: 12px auto 0;
+    }
+
+    /* SERVICES GRID */
+    .services-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 28px;
+      padding: 40px 40px 64px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .service-card {
+      background: #f9f9f9;
+      border: 1px solid #e0e0e0;
+      border-top: 4px solid #1a3a5c;
+      border-radius: 6px;
+      padding: 32px 28px;
+      width: 460px;
+    }
+    .service-card .icon { font-size: 40px; margin-bottom: 16px; }
+    .service-card h3 { font-size: 18px; color: #1a3a5c; margin-bottom: 10px; }
+    .service-card p { font-size: 14px; color: #555; margin-bottom: 14px; }
+    .service-card ul {
+      list-style: none;
+      padding: 0;
+    }
+    .service-card ul li {
+      font-size: 13px;
+      color: #444;
+      padding: 4px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .service-card ul li::before {
+      content: "→ ";
+      color: #f0a500;
+      font-weight: bold;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #1a3a5c;
+      color: #aaa;
+      text-align: center;
+      padding: 22px;
+      font-size: 14px;
+    }
+    footer span { color: #f0a500; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html" class="logo">MORI<span>KAM</span></a>
+    <ul>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="index.html#pourquoi">Pourquoi nous</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <h1>Nos <span>Services</span></h1>
+    <p>Des solutions de signalétique complètes pour tous vos besoins</p>
+  </section>
+
+  <!-- SERVICES -->
+  <div class="section-title">
+    <h2>Nos 4 domaines d'expertise</h2>
+    <p>Plus de 4 000 références produits pour répondre à chaque situation</p>
+    <div class="divider"></div>
+  </div>
+
+  <div class="services-grid">
+
+    <div class="service-card">
+      <div class="icon">🏢</div>
+      <h3>Signalétique Intérieure</h3>
+      <p>Toutes les solutions pour signaler, informer et sécuriser vos espaces intérieurs.</p>
+      <ul>
+        <li>Adhésifs et vitrines pour entreprises</li>
+        <li>Signalétique hôtel (porte-clés, menus QR code)</li>
+        <li>Tableaux blancs, panneaux d'affichage</li>
+        <li>Chevalets de bureau et porte-noms</li>
+        <li>Protection et information (coins, cloisons)</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">🚦</div>
+      <h3>Signalétique Extérieure</h3>
+      <p>Équipez vos espaces extérieurs avec des produits durables et conformes aux normes.</p>
+      <ul>
+        <li>Panneaux routiers et balises de signalisation</li>
+        <li>Signalisation temporaire de chantier</li>
+        <li>Équipement urbain (abris vélos, arceaux)</li>
+        <li>Plaques professionnelles en laiton, plexiglas, aluminium</li>
+        <li>Signalisation de parking et vitrines extérieures</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">⚠️</div>
+      <h3>Signalétique de Sécurité</h3>
+      <p>Assurez la conformité et la sécurité de vos installations industrielles et tertiaires.</p>
+      <ul>
+        <li>Panneaux de danger, obligation, interdiction</li>
+        <li>Consignes de sécurité réglementaires</li>
+        <li>Gravures industrielles sur mesure</li>
+        <li>Repérage de tuyauterie (marqueurs, étiquettes)</li>
+        <li>Étiquettes de condamnation et de sécurité</li>
+      </ul>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">♿</div>
+      <h3>Accessibilité PMR</h3>
+      <p>Mettez vos locaux en conformité avec les normes d'accessibilité pour les personnes à mobilité réduite.</p>
+      <ul>
+        <li>Bandes podotactiles et plots d'éveil</li>
+        <li>Mains courantes et guidage escaliers</li>
+        <li>Cheminements extérieurs conformes</li>
+        <li>Stationnement PMR</li>
+        <li>Signalétique en braille et relief</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2024 <span>Morikam</span> — Tous droits réservés
+  </footer>
+
+</body>
+</html>
