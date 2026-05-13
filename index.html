@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morikam – Signalétique professionnelle au Maroc</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      background: #1a3a5c;
+      padding: 16px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    nav .logo span { color: #f0a500; }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+    }
+    nav ul a {
+      color: #ccc;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    nav ul a:hover { color: #fff; }
+
+    /* HERO */
+    .hero {
+      background: #1a3a5c;
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px 90px;
+    }
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 18px;
+      line-height: 1.2;
+    }
+    .hero h1 span { color: #f0a500; }
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 32px;
+      color: #b0c4d8;
+    }
+    .hero a {
+      background: #f0a500;
+      color: #1a3a5c;
+      padding: 14px 36px;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: none;
+    }
+    .hero a:hover { background: #d49000; }
+
+    /* SECTION TITLE */
+    .section-title {
+      text-align: center;
+      padding: 60px 20px 10px;
+    }
+    .section-title h2 { font-size: 28px; color: #1a3a5c; }
+    .section-title p { color: #666; margin-top: 10px; }
+    .divider {
+      width: 50px;
+      height: 3px;
+      background: #f0a500;
+      margin: 14px auto 0;
+    }
+
+    /* SERVICES */
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 24px;
+      padding: 40px 40px 60px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #f9f9f9;
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      padding: 30px 24px;
+      width: 220px;
+      text-align: center;
+    }
+    .card .icon { font-size: 36px; margin-bottom: 14px; }
+    .card h3 { font-size: 16px; color: #1a3a5c; margin-bottom: 8px; }
+    .card p { font-size: 14px; color: #666; }
+
+    /* POURQUOI NOUS */
+    .why {
+      background: #f0f4f8;
+      padding: 60px 40px;
+      text-align: center;
+    }
+    .why-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px;
+      margin-top: 40px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .why-item { width: 200px; }
+    .why-item .num {
+      font-size: 36px;
+      font-weight: bold;
+      color: #f0a500;
+    }
+    .why-item p { font-size: 14px; color: #444; margin-top: 6px; }
+
+    /* CONTACT */
+    .contact {
+      padding: 60px 40px;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .contact-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px;
+      margin-top: 36px;
+    }
+    .contact-item { font-size: 15px; color: #444; }
+    .contact-item strong { display: block; color: #1a3a5c; font-size: 13px; text-transform: uppercase; margin-bottom: 4px; }
+
+    /* FOOTER */
+    footer {
+      background: #1a3a5c;
+      color: #aaa;
+      text-align: center;
+      padding: 22px;
+      font-size: 14px;
+    }
+    footer span { color: #f0a500; }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo">MORI<span>KAM</span></div>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#pourquoi">Pourquoi nous</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <h1>La signalétique<br><span>professionnelle</span> au Maroc</h1>
+    <p>Morikam vous fournit des solutions de signalétique intérieure, extérieure, de sécurité et d'accessibilité pour les entreprises, administrations et collectivités.</p>
+    <a href="#contact">Demander un devis</a>
+  </section>
+
+  <!-- SERVICES -->
+  <div class="section-title" id="services">
+    <h2>Nos domaines</h2>
+    <p>Des solutions adaptées à chaque besoin</p>
+    <div class="divider"></div>
+  </div>
+  <div class="services">
+    <div class="card">
+      <div class="icon">🏢</div>
+      <h3>Signalétique Intérieure</h3>
+      <p>Plaques, adhésifs, chevalets, tableaux d'affichage pour vos locaux professionnels.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🚦</div>
+      <h3>Signalétique Extérieure</h3>
+      <p>Panneaux routiers, équipement urbain, parking et affichage publicitaire.</p>
+    </div>
+    <div class="card">
+      <div class="icon">⚠️</div>
+      <h3>Signalétique de Sécurité</h3>
+      <p>Panneaux, consignes, gravures industrielles et repérage de tuyauterie.</p>
+    </div>
+    <div class="card">
+      <div class="icon">♿</div>
+      <h3>Accessibilité</h3>
+      <p>Bandes podotactiles, mains courantes, cheminements PMR conformes aux normes.</p>
+    </div>
+  </div>
+
+  <!-- POURQUOI NOUS -->
+  <div class="why" id="pourquoi">
+    <div class="section-title">
+      <h2>Pourquoi choisir Morikam ?</h2>
+      <p>Des chiffres qui parlent d'eux-mêmes</p>
+      <div class="divider"></div>
+    </div>
+    <div class="why-list">
+      <div class="why-item">
+        <div class="num">4 000+</div>
+        <p>références produits disponibles</p>
+      </div>
+      <div class="why-item">
+        <div class="num">4</div>
+        <p>grandes familles de signalétique couvertes</p>
+      </div>
+      <div class="why-item">
+        <div class="num">24h</div>
+        <p>délai de réponse à vos demandes</p>
+      </div>
+      <div class="why-item">
+        <div class="num">100%</div>
+        <p>produits conformes aux normes</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>Nous contacter</h2>
+      <p>Notre équipe est disponible pour vous accompagner</p>
+      <div class="divider"></div>
+    </div>
+    <div class="contact-info">
+      <div class="contact-item">
+        <strong>Téléphone</strong>
+        +212 5 20 34 71 21<br>+212 6 68 68 88 97
+      </div>
+      <div class="contact-item">
+        <strong>Adresse</strong>
+        Quartier Gauthier<br>Casablanca, Maroc
+      </div>
+      <div class="contact-item">
+        <strong>Site web</strong>
+        plaquesignaletique.ma
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2024 <span>Morikam</span> — Tous droits réservés
+  </footer>
+
+</body>
+</html>
